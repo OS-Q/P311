@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3.7"
+
+env:
+  - PLATFORMIO_PROJECT_DIR=examples/coremark
+  - PLATFORMIO_PROJECT_DIR=examples/demo_dsp
+
+install:
+  - pip install -U https://github.com/OS-Q/S03/archive/master.zip
+  - qio platform install file://.
+
+script:
+  - qio run -d $PLATFORMIO_PROJECT_DIR
