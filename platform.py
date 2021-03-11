@@ -3,8 +3,7 @@ from platform import system
 
 from platformio.managers.platform import PlatformBase
 
-
-class NucleiPlatform(PlatformBase):
+class P25Platform(PlatformBase):
     def get_boards(self, id_=None):
         result = PlatformBase.get_boards(self, id_)
         if not result:

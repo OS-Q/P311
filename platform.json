@@ -1,10 +1,11 @@
 {
-  "name": "nuclei",
-  "title": "Nuclei",
+  "name": "P25",
+  "title": "Platform P25",
   "description": "Find professional RISC-V Processor IP in Nuclei, first professional RISC-V IP company in Mainland China, match all your requirements in AIoT Era.",
   "homepage": "https://nucleisys.com/",
   "keywords": [
     "dev-platform",
+    "OS-Q",
     "Nuclei",
     "RISC-V",
     "AIoT"
