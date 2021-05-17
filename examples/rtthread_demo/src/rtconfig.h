@@ -5,8 +5,6 @@
 
 #include <rtthread.h>
 
-#define RT_USING_FINSH
-
 #if defined(__CC_ARM) || defined(__CLANG_ARM)
 #include "RTE_Components.h"
 
@@ -149,15 +147,13 @@
 // <o>the stack of finsh thread <1-4096>
 //  <i>the stack of finsh thread
 //  <i>Default: 4096  (4096Byte)
-#define FINSH_THREAD_STACK_SIZE     4096
+#define FINSH_THREAD_STACK_SIZE     512
 // <o>the history lines of finsh thread <1-32>
 //  <i>the history lines of finsh thread
 //  <i>Default: 5
 #define FINSH_HISTORY_LINES         1
 
 #define FINSH_USING_SYMTAB
-
-#define FINSH_USING_DESCRIPTION
 // </h>
 #endif
 
