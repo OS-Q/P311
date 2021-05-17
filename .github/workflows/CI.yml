@@ -69,6 +69,7 @@ jobs:
           - "rtthread_msh"
           - "ucosii_demo"
           - "whetstone"
+
         package: ["pio","qio"]
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}

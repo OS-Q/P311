@@ -20,7 +20,7 @@
   "version": "1.0.12",
   "frameworks": {
     "nuclei-sdk": {
-      "package": "framework-nuclei-sdk",
+      "package": "E222",
       "script": "extend/frameworks/nuclei-sdk.py"
     }
   },
@@ -30,11 +30,10 @@
       "owner": "nuclei",
       "version": "~9.2.1"
     },
-    "framework-nuclei-sdk": {
+    "E222": {
       "optional": true,
       "type": "framework",
-      "owner": "nuclei",
-      "version": "~0.3.0"
+      "version": "https://github.com/OS-Q/E222.git"
     },
     "tool-openocd-nuclei": {
       "optional": true,

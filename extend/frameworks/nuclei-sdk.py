@@ -10,7 +10,7 @@ env = DefaultEnvironment()
 board = env.BoardConfig()
 build_board = board.id
 
-FRAMEWORK_DIR = env.PioPlatform().get_package_dir("framework-nuclei-sdk")
+FRAMEWORK_DIR = env.PioPlatform().get_package_dir("E222")
 FRAMEWORK_NUCLEI_SOC_CORES_MK = join(FRAMEWORK_DIR, "Build", "Makefile.core")
 
 assert isdir(FRAMEWORK_DIR)

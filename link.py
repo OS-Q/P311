@@ -26,7 +26,7 @@ class P222Platform(PlatformBase):
         if "tools" not in debug:
             debug["tools"] = {}
 
-        sdk_dir = self.get_package_dir("framework-nuclei-sdk") or ""
+        sdk_dir = self.get_package_dir("E222") or ""
         build_soc = build.get("soc", "").strip().lower()
         build_board = board.id
 
