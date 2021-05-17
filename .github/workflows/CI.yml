@@ -58,18 +58,18 @@ jobs:
       matrix:
         example:
           - "coremark"
+          - "dhrystone"
+          - "whetstone"
+          - "helloworld"
           - "demo_dsp"
           - "demo_eclic"
-          - "demo_nice"
           - "demo_timer"
-          - "dhrystone"
           - "freertos_demo"
-          - "helloworld"
           - "rtthread_demo"
           - "rtthread_msh"
           - "ucosii_demo"
-          - "whetstone"
 
+          # - "demo_nice"
         package: ["pio","qio"]
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}

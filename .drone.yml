@@ -13,7 +13,6 @@ steps:
   - pio run -d examples/coremark
   - pio run -d examples/demo_dsp
   - pio run -d examples/demo_eclic
-  - pio run -d examples/demo_nice
   - pio run -d examples/demo_timer
   - pio run -d examples/dhrystone
   - pio run -d examples/freertos_demo
@@ -35,7 +34,6 @@ steps:
   - pio run -d examples/coremark
   - pio run -d examples/demo_dsp
   - pio run -d examples/demo_eclic
-  - pio run -d examples/demo_nice
   - pio run -d examples/demo_timer
   - pio run -d examples/dhrystone
   - pio run -d examples/freertos_demo
