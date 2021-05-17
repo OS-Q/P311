@@ -1,0 +1,46 @@
+kind: pipeline
+name: OSQ
+
+steps:
+- name: QIO
+  image: python:3
+  commands:
+  - apt update
+  - apt install -y git
+  - git submodule update --init --recursive
+  - pip install -U https://github.com/OS-Q/M03/releases/latest/download/qio.zip
+  - pio platform install file://.
+  - pio run -d examples/coremark
+  - pio run -d examples/demo_dsp
+  - pio run -d examples/demo_eclic
+  - pio run -d examples/demo_nice
+  - pio run -d examples/demo_timer
+  - pio run -d examples/dhrystone
+  - pio run -d examples/freertos_demo
+  - pio run -d examples/helloworld
+  - pio run -d examples/rtthread_demo
+  - pio run -d examples/rtthread_msh
+  - pio run -d examples/ucosii_demo
+  - pio run -d examples/whetstone
+
+steps:
+- name: PIO
+  image: python:3
+  commands:
+  - apt update
+  - apt install -y git
+  - git submodule update --init --recursive
+  - pip install -U https://github.com/platformio/platformio/archive/develop.zip
+  - pio platform install file://.
+  - pio run -d examples/coremark
+  - pio run -d examples/demo_dsp
+  - pio run -d examples/demo_eclic
+  - pio run -d examples/demo_nice
+  - pio run -d examples/demo_timer
+  - pio run -d examples/dhrystone
+  - pio run -d examples/freertos_demo
+  - pio run -d examples/helloworld
+  - pio run -d examples/rtthread_demo
+  - pio run -d examples/rtthread_msh
+  - pio run -d examples/ucosii_demo
+  - pio run -d examples/whetstone
