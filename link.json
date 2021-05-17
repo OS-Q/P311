@@ -1,0 +1,52 @@
+{
+  "name": "P222",
+  "title": "Nuclei",
+  "description": "Find professional RISC-V Processor IP in Nuclei, first professional RISC-V IP company in Mainland China, match all your requirements in AIoT Era.",
+  "homepage": "https://nucleisys.com/",
+  "keywords": [
+    "dev-platform",
+    "Nuclei",
+    "RISC-V",
+    "AIoT"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "platformio": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OS-Q/P222.git"
+  },
+  "version": "1.0.12",
+  "frameworks": {
+    "nuclei-sdk": {
+      "package": "framework-nuclei-sdk",
+      "script": "extend/frameworks/nuclei-sdk.py"
+    }
+  },
+  "packages": {
+    "toolchain-riscv-gcc-nuclei": {
+      "type": "toolchain",
+      "owner": "nuclei",
+      "version": "~9.2.1"
+    },
+    "framework-nuclei-sdk": {
+      "optional": true,
+      "type": "framework",
+      "owner": "nuclei",
+      "version": "~0.3.1"
+    },
+    "tool-openocd-nuclei": {
+      "optional": true,
+      "type": "uploader",
+      "owner": "nuclei",
+      "version": "~0.10.2"
+    },
+    "tool-jlink": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "^1.65200.0"
+    }
+  }
+}

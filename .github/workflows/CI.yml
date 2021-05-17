@@ -57,9 +57,18 @@ jobs:
       fail-fast: false
       matrix:
         example:
-          - "eval-blink"
-          - "nano-blink"
-          - "arduino-blink"
+          - "coremark"
+          - "demo_dsp"
+          - "demo_eclic"
+          - "demo_nice"
+          - "demo_timer"
+          - "dhrystone"
+          - "freertos_demo"
+          - "helloworld"
+          - "rtthread_demo"
+          - "rtthread_msh"
+          - "ucosii_demo"
+          - "whetstone"
         package: ["pio","qio"]
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
