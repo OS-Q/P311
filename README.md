@@ -1,15 +1,16 @@
-﻿# [P25](https://github.com/OS-Q/P25)
+﻿# [P222](https://github.com/OS-Q/P222)
 
 [![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
 
-[![Build Status](https://github.com/OS-Q/P25/workflows/ubuntu/badge.svg)](https://github.com/OS-Q/P25/actions/workflows/ubuntu.yml)
-[![Build Status](https://github.com/OS-Q/P25/workflows/windows/badge.svg)](https://github.com/OS-Q/P25/actions/workflows/windows.yml)
-[![Build Status](https://github.com/OS-Q/P25/workflows/PlatformIO/badge.svg)](https://github.com/OS-Q/P25/actions/workflows/platformio.yml)
-[![Build Status](https://travis-ci.com/OS-Q/P25.svg?branch=master)](https://travis-ci.com/OS-Q/P25)
-[![Build status](https://ci.appveyor.com/api/projects/status/3kk1cpsygap4cd8g?svg=true)](https://ci.appveyor.com/project/Qitas/p25)
 
-### [简介](https://github.com/OS-Q/P25/wiki)
+[![Build Status](https://github.com/OS-Q/P222/workflows/CI/badge.svg)](https://github.com/OS-Q/P222/actions/workflows/CI.yml)
+[![Build Status](https://github.com/OS-Q/P222/workflows/CD/badge.svg)](https://github.com/OS-Q/P222/actions/workflows/CD.yml)
+[![Build Status](https://circleci.com/gh/OS-Q/P222.svg?style=svg)](https://circleci.com/gh/OS-Q/P222)
+[![Build Status](https://travis-ci.com/OS-Q/P222.svg?branch=master)](https://travis-ci.com/OS-Q/P222)
+[![Build Status](https://cloud.drone.io/api/badges/OS-Q/P222/status.svg)](https://cloud.drone.io/OS-Q/P222)
 
-[P25](https://github.com/OS-Q/P25)
+### [简介](https://github.com/OS-Q/P222/wiki)
+
+[P222](https://github.com/OS-Q/P222)
 
 ### [源圈 OS-Q (Open Source & QA) ](http://www.OS-Q.com)
